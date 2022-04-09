@@ -1,0 +1,72 @@
+*, ::after, ::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background: #1c1c1c;
+  color: #fff;
+  position: relative;
+}
+header .card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #1F2937;
+  width: 550px;
+  height: 550px;
+  padding: 5em 2em;
+}
+header .card h1 {
+  font-family: "Karla";
+  font-weight: 800;
+  font-size: 2.4rem;
+  line-height: 2.5rem;
+}
+header .card h1 span {
+  color: #10B981;
+}
+header .card p {
+  color: #D5D4D8;
+  line-height: 2.6rem;
+}
+header .card button {
+  padding-block: 0.5em;
+  padding-inline: 2.5em 1em;
+  text-align: center;
+  border-radius: 0.6em;
+  outline: none;
+  border: none;
+  color: #fff;
+  background: #10B981;
+  font-size: 1rem;
+  margin-top: 2rem;
+  position: relative;
+  cursor: pointer;
+}
+header .card button img {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}
+header .card hr {
+  height: 1px;
+  margin-block: 2em;
+  background: #2F3E53;
+  border: none;
+}
+header .card .input-cards {
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 2;
+}
+header .card .input-cards input {
+  width: 50%;
+  display: flex;
+}/*# sourceMappingURL=index.css.map */
