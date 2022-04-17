@@ -63,10 +63,28 @@ header .card hr {
 }
 header .card .input-cards {
   display: grid;
-  grid-template-columns: 2;
-  grid-template-rows: 2;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5em;
+  list-style: none;
 }
-header .card .input-cards input {
-  width: 50%;
+header .card .input-cards span {
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background: #273549;
+  color: #10B981;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .card .input-cards span input {
+  text-align: center;
+  border: none;
+  background: transparent;
+  color: #10B981;
+  font-weight: 800;
+  font-size: 0.9rem;
+}
+header .card .input-cards span input:focus {
+  outline: none;
 }/*# sourceMappingURL=index.css.map */

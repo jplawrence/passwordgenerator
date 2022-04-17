@@ -15,16 +15,17 @@
         <div class="card">
             <h1>Generate a<br><span>random password</span></h1>
             <p>Never use an insecure password again</p>
-            <button id="password-btn" onclick="createPassword()"><img src="./images/lightning-strike.svg" />Generate passwords</button>
+            <button id="password-btn"><img src="./images/lightning-strike.svg" alt="lighting-strike-icon"/>Generate passwords</button>
             <hr>
-            <div class="input-cards">
-                <input type="text">
-                <input type="text">
-                <input type="text">
-                <input type="text">
+            <div id="inputCards" class="input-cards">
+                <span><input id="input-1" class="password-cont" type="text" disabled></span>
+                <span><input id="input-2" class="password-cont" type="text" disabled></span>
+                <span><input id="input-3" class="password-cont" type="text" disabled></span>
+                <span><input id="input-4" class="password-cont" type="text" disabled></span>
             </div>
         </div>
     </header>
     <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </body>
 </html>
