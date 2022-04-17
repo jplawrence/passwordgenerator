@@ -50,6 +50,7 @@ header .card button {
   cursor: pointer;
 }
 header .card button img {
+  width: 15px;
   position: absolute;
   top: 50%;
   left: 10%;
